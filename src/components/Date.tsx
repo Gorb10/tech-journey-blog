@@ -6,7 +6,10 @@ import { parseISO, format } from 'date-fns'
 
 export default function Date({ dateString }: { dateString: string }) {
   const date = parseISO(dateString)
-
+console.log(date)
+if(!date){
+  return<></>
+}
   return <time dateTime={dateString}>{format(date, 'LLL d, yyyy')}</time>
   // view different format() string options here:
   // https://date-fns.org/v2.16.1/docs/format

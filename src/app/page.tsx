@@ -11,7 +11,7 @@ type AllPostsData = {
 }[]
 
 // Change this url to change the image!
-const imageUrl = '/images/snorlax.jpg';
+const imageUrl = '/images/';
 
 export default function Home() {
   const allPostsData: AllPostsData = getSortedPostsData()
@@ -20,12 +20,12 @@ export default function Home() {
       <div>
         <section>
           <p className={'prose'}>
-            Hey I&apos;m Luke. This is my site.
+            Wartotle
           </p>
           <div className={'my-4'}>
             <i>
-              Check out the repo{' '}
-                <Link href={'https://github.com/ludu12/tech-journey-blog'}>
+              Check out the worturtle{' '}
+                <Link href={'https://bulbapedia.bulbagarden.net/wiki/Wartortle_(Pok%C3%A9mon)'}>
                   <button className={'btn btn-primary'}>
                       <span className={'text-primary-content'}>
                         here

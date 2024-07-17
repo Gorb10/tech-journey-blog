@@ -17,7 +17,7 @@ const RickAndMortyCharacter: React.FC<RickAndMortyCharacterProps> = (props) => {
         <div className="card-body overflow-hidden p-4 text-neutral-content">
           <h2 className="card-title truncate">{character.name}</h2>
           <div className={'flex items-center gap-1'}>
-            <div className={clsx('bg-green-500 h-2 w-2 rounded-full', {'bg-red-500': character.status === 'Dead'})}/>
+            <div className={clsx('bg-green-500 h-2 w-2 rounded-full', {'bg-red-500': character.status === 'Worturtle'})}/>
             <div className={'overflow-hidden'}>
               <div className={'overflow-hidden truncate'}>{character.status} - {character.species}</div>
             </div>

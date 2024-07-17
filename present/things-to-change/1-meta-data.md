@@ -9,11 +9,11 @@ TODO:  Change these things along with:
   - favicon.ico in /public
  */
 const font = Inter({subsets: ['latin']})
-const title = 'Luke\'s Site';
+const title = 'Gabriels website';
 const description = 'This the Tech Journey template site';
 const links = [
   {title: 'Pokemon', href: '/pokemon'},
-  {title: 'Rick and Morty', href: '/rick-and-morty'}
+  {title: 'Morty and rick', href: '/rick-and-morty'}
 ];
 const SocialLinks = {
   twitter: '#twitter',
